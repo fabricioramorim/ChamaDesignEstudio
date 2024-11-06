@@ -24,32 +24,32 @@ function App() {
         <h2>Nos acompanhe</h2>
         <p>Chama Design Estúdio</p>
         <div>
-          <a href="" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.behance.net/chamadesign1" target="_blank" rel="noopener noreferrer">
             <img src={BehanceImage} className="social"/>
           </a>
-          <a href="" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.youtube.com/channel/UCMORbZydSHHHi9KYXSiziQA" target="_blank" rel="noopener noreferrer">
             <img src={YoutubeImage} className="social"/>
           </a>
-          <a href="" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/chamadesignestudio/" target="_blank" rel="noopener noreferrer">
             <img src={InstagramImage} className="social"/>
           </a>
-          <a href="" target="_blank" rel="noopener noreferrer">
+          <a href="https://vimeo.com/user223947702" target="_blank" rel="noopener noreferrer">
             <img src={VimeoImage} className="social"/>
           </a>
         </div>
         <h2>Contatos</h2>
         <div className='contactDiv'>
-          <a href="" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/5511937583014" target="_blank" rel="noopener noreferrer">
             <img src={WhatsappImage} className="social"/>
           </a>
-          <a href="" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/5511937583014" target="_blank" rel="noopener noreferrer">
             <h2>(11) 93758-3014</h2>
           </a>
           <div></div>
-          <a href="" target="_blank" rel="noopener noreferrer">
+          <a href="mailto:contato@chamaestudio.com" target="_blank" rel="noopener noreferrer">
             <img src={EmailImage} className="social"/>
           </a>
-          <a href="" target="_blank" rel="noopener noreferrer">
+          <a href="mailto:contato@chamaestudio.com" target="_blank" rel="noopener noreferrer">
             <h2>contato@chamaestudio.com</h2> 
           </a>
         </div>
