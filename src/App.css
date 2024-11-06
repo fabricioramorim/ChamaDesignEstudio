@@ -6,7 +6,7 @@
 }
 
 .logo {
-  height: 6em;
+  height: 8em;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
@@ -16,6 +16,52 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #EB0043);
+}
+
+.seloChama {
+  height: 6em;
+  padding: 1.5em;
+}
+
+.social {
+  height: 3em;
+  padding: 0.2em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.social:hover {
+  cursor: pointer;
+  filter: drop-shadow(0 0 2em #EB0043);
+}
+.social.react:hover {
+  filter: drop-shadow(0 0 2em #EB0043);
+}
+
+.contactDiv {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactDiv img {
+  height: 2.5em;
+  margin-right: 0.2em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.contactDiv div {
+  margin-inline: 10px;
+}
+.contactDiv img:hover{
+  cursor: pointer;
+  filter: drop-shadow(0 0 2em #EB0043);
+}
+.contactDiv h2:hover{
+  cursor: pointer;
+}
+
+p {
+  margin-top: -20px;
 }
 
 @keyframes logo-spin {
